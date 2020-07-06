@@ -1,18 +1,19 @@
 import React from 'react';
 import './NavCSS.css';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 const Nav = () => {
 	return (
 		<div className="navigate">
 			<ul>
 				<li>
-					<a href="default.asp">About Me</a>
+					<Link to="/">About Me</Link>
 				</li>
 				<li>
-					<a href="skills.asp">My Skills</a>
+					<Link to="/myskills">My Skills</Link>{' '}
 				</li>
 				<li>
-					<a href="projects.asp">Projects</a>
+					<Link to="/myprojects">My Projects</Link>{' '}
 				</li>
 			</ul>
 		</div>
