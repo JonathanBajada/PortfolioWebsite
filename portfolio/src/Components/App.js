@@ -15,10 +15,14 @@ const PageOne = () => {
 			<div className="personal-link">
 				<ul>
 					<li>
-						<a href="https://github.com/JonathanBajada">GitHub</a>
+						<a href="https://github.com/JonathanBajada" target="_blank">
+							GitHub
+						</a>
 					</li>
 					<li>
-						<a href="url">LinkedIn</a>
+						<a href="url" target="_blank">
+							LinkedIn
+						</a>
 					</li>
 				</ul>
 			</div>
