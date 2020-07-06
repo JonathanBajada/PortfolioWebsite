@@ -12,6 +12,16 @@ const PageOne = () => {
 			<Nav />
 			<br />
 			<Header />
+			<div className="personal-link">
+				<ul>
+					<li>
+						<a href="https://github.com/JonathanBajada">GitHub</a>
+					</li>
+					<li>
+						<a href="url">LinkedIn</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	);
 };
@@ -50,9 +60,6 @@ const MyProjects = () => {
 		<div>
 			<Nav />
 			<br />
-			<Card script="Description">project 1</Card>
-			<Card script="Description2">project 2</Card>
-			<Card script="Description3">project 3</Card>
 		</div>
 	);
 };
