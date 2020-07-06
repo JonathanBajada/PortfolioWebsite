@@ -1,26 +1,22 @@
-import  React from 'react';
+import React from 'react';
+import './NavCSS.css';
 
 const Nav = () => {
-    return (
-        <div className="Nav">
-            <ul>
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="news.asp">News</a></li>
-                <li><a href="contact.asp">Contact</a></li>
-                <li><a href="about.asp">About</a></li>
-            </ul>
-        </div>
-    );
+	return (
+		<div className="navigate">
+			<ul>
+				<li>
+					<a href="default.asp">About Me</a>
+				</li>
+				<li>
+					<a href="skills.asp">My Skills</a>
+				</li>
+				<li>
+					<a href="projects.asp">Projects</a>
+				</li>
+			</ul>
+		</div>
+	);
 };
 
 export default Nav;
-
-/*
-ul.horizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-*/

@@ -1,0 +1,21 @@
+.navigate {
+	float: right;
+	font-size: 20px;
+}
+
+.navigate ul {
+	margin: 0;
+	padding: 0;
+	padding-right: 50px;
+	list-style-type: none;
+}
+
+.navigate li {
+	display: inline-block;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+/*
+https://stackoverflow.com/questions/41456143/list-style-type-none-not-working
+
+*/
