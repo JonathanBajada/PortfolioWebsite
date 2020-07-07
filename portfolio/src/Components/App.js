@@ -53,6 +53,7 @@ const MySkills = () => {
 					<li>MongoDB</li>
 					<li>Spring Boot</li>
 					<li>Java</li>
+					<li>Python</li>
 				</ul>
 			</Card>
 		</div>

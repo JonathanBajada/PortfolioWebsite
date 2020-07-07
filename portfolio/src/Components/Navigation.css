@@ -25,6 +25,10 @@
 .navigate a {
 	color: white;
 }
+
+a:hover {
+	color: yellow;
+}
 /*
 https://stackoverflow.com/questions/41456143/list-style-type-none-not-working
 
