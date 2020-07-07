@@ -1,19 +1,29 @@
 .navigate {
-	float: right;
-	font-size: 20px;
+	position: fixed;
+	font-size: 15px;
+	top: 0;
+	left: 0;
+	background-color: purple;
+	width: 100%;
+	height: 4em;
 }
 
 .navigate ul {
+	float: right;
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	padding-right: 50px;
-	list-style-type: none;
 }
 
 .navigate li {
 	display: inline-block;
 	margin-left: 20px;
 	padding-top: 20px;
+}
+
+.navigate a {
+	color: white;
 }
 /*
 https://stackoverflow.com/questions/41456143/list-style-type-none-not-working

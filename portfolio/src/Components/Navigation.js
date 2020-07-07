@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavCSS.css';
+import './Navigation.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 const Nav = () => {
