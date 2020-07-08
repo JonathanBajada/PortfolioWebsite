@@ -4,6 +4,10 @@ import Card from './Card';
 import Nav from './Navigation';
 import Project from './Project';
 import './Main.css';
+import github from './github.png';
+import linkedIN from '../IMG/LI-In-Bug.png';
+import linkedBanner from '../IMG/LI-Logo.png';
+
 import { BrowserRouter, Route } from 'react-router-dom';
 
 //MySkills List
@@ -23,12 +27,12 @@ const PageOne = () => {
 				<ul>
 					<li>
 						<a href="https://github.com/JonathanBajada" target="_blank">
-							GitHub
+							<img src={github} alt="Github" width="40px" />
 						</a>
 					</li>
 					<li>
 						<a href="https://www.linkedin.com/in/jbajada" target="_blank">
-							LinkedIn
+							<img src={linkedIN} alt="Github" width="40px" />
 						</a>
 					</li>
 				</ul>
@@ -52,7 +56,7 @@ const MyProjects = () => {
 	return (
 		<div>
 			<Nav />
-			<Project />
+			<br />
 			<br />
 		</div>
 	);
