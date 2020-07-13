@@ -4,7 +4,6 @@ import Header from './Header';
 import AboutMe from './AboutMe';
 import Card from './Card';
 import Project from './Project';
-import github from './github.png';
 import './Main.css';
 
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -26,18 +25,7 @@ const Home = () => {
 };
 
 /*
-		<ul>
-					<li>
-						<a href="https://github.com/JonathanBajada" target="_blank">
-							<img src={github} alt="Github" width="40px" />
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/jbajada" target="_blank">
-							<img src={linkedIN} alt="Github" width="40px" />
-						</a>
-					</li>
-				</ul>
+
 */
 
 const AboutPage = () => {

@@ -16,7 +16,7 @@
 	margin: 0;
 	padding: 0;
 	color: white;
-	font-size: 50px;
+	font-size: 60px;
 	animation-name: moveInLeft;
 	animation-duration: 2s;
 	animation-timing-function: ease-out;
@@ -26,7 +26,7 @@
 	margin: 0;
 	padding: 0;
 	color: white;
-	font-size: 30px;
+	font-size: 35px;
 	padding-top: 20px;
 	animation-name: moveInRight;
 	animation-duration: 2s;
