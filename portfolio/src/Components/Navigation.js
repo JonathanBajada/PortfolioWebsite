@@ -18,7 +18,7 @@ const Nav = () => {
 					<Link to="/myskills">My Skills</Link>{' '}
 				</li>
 				<li>
-					<Link to="/myprojects">My Projects</Link>{' '}
+					<Link to="/myprojects">Projects</Link>{' '}
 				</li>
 			</ul>
 		</div>
