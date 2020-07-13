@@ -33,3 +33,9 @@
 	padding-top: 20px;
 	text-align: center;
 }
+
+.about-contact li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 10px;
+}
