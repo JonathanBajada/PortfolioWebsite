@@ -1,0 +1,22 @@
+article {
+	margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 500px;
+	min-height: 450px;
+	min-width: 300px;
+}
+
+.content-body {
+	width: 100%;
+	margin: auto;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-pack: center;
+	justify-content: center;
+}

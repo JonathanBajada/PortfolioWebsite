@@ -54,7 +54,7 @@ const MyProjects = () => {
 		<div>
 			<Nav />
 			<br />
-			<br />
+			<Project />
 		</div>
 	);
 };

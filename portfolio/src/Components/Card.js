@@ -5,9 +5,7 @@ const Card = (props) => {
 	return (
 		<div className="card-css">
 			<div className="ui card">
-				<div className="card-icon">
-					<img alt="icon" />
-				</div>
+				<div className="card-icon" />
 				<div className="card-title">
 					<h1>{props.cardTitle}</h1>
 				</div>
