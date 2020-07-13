@@ -5,8 +5,6 @@ import AboutMe from './AboutMe';
 import Card from './Card';
 import Project from './Project';
 import github from './github.png';
-import linkedIN from '../IMG/LI-In-Bug.png';
-import linkedBanner from '../IMG/LI-Logo.png';
 import './Main.css';
 
 import { BrowserRouter, Route } from 'react-router-dom';
