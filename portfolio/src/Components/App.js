@@ -1,12 +1,13 @@
 import React from 'react';
-import Header from './Header';
-import Card from './Card';
 import Nav from './Navigation';
+import Header from './Header';
+import AboutMe from './AboutMe';
+import Card from './Card';
 import Project from './Project';
-import './Main.css';
 import github from './github.png';
 import linkedIN from '../IMG/LI-In-Bug.png';
 import linkedBanner from '../IMG/LI-Logo.png';
+import './Main.css';
 
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -17,14 +18,17 @@ const frontEndList = frontEnd.map((frontEnd) => <li>{frontEnd}</li>);
 const backEnd = [ 'Node.js', 'Spring Boot', 'MySQL', 'MongoDB', 'Java', 'Python' ];
 const backEndList = backEnd.map((backEnd) => <li>{backEnd}</li>);
 
-const PageOne = () => {
+const Home = () => {
 	return (
 		<div>
-			<Nav />
-			<br />
 			<Header />
-			<div className="personal-link">
-				<ul>
+			<div className="personal-link" />
+		</div>
+	);
+};
+
+/*
+		<ul>
 					<li>
 						<a href="https://github.com/JonathanBajada" target="_blank">
 							<img src={github} alt="Github" width="40px" />
@@ -36,7 +40,14 @@ const PageOne = () => {
 						</a>
 					</li>
 				</ul>
-			</div>
+*/
+
+const AboutPage = () => {
+	return (
+		<div>
+			<Nav />
+			<br />
+			<AboutMe />
 		</div>
 	);
 };
@@ -64,9 +75,10 @@ const MyProjects = () => {
 
 const App = () => {
 	return (
-		<div>
+		<div className="main-div">
 			<BrowserRouter>
-				<Route path="/" exact component={PageOne} />
+				<Route path="/" exact component={Home} />
+				<Route path="/about" component={AboutPage} />
 				<Route path="/myskills" component={MySkills} />
 				<Route path="/myprojects" component={MyProjects} />
 			</BrowserRouter>

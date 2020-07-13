@@ -1,11 +1,15 @@
 import React from 'react';
 import './Header.css';
+import Nav from './Navigation';
 
 const Header = () => {
 	return (
 		<div className="main-header">
-			<header>Jonathan Bajada</header>
-			<h2 className="dev-header">Software Developer</h2>
+			<Nav />
+			<header>
+				<h1 className="h1-header">Jonathan Bajada</h1>
+			</header>
+			<h2 className="h2-header">Software Developer</h2>
 		</div>
 	);
 };

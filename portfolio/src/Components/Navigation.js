@@ -7,7 +7,12 @@ const Nav = () => {
 		<div className="navigate">
 			<ul>
 				<li>
-					<Link to="/">About Me</Link>
+					<Link to="/">
+						<img className="home-button" src={require('../img/homeButton.png')} alt="" />
+					</Link>
+				</li>
+				<li>
+					<Link to="/about">About Me</Link>
 				</li>
 				<li>
 					<Link to="/myskills">My Skills</Link>{' '}
