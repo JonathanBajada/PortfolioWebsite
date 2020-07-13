@@ -26,6 +26,7 @@
 	margin: 0;
 	padding: 0;
 	color: white;
+	font-size: 30px;
 	padding-top: 20px;
 	animation-name: moveInRight;
 	animation-duration: 2s;
