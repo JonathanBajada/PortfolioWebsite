@@ -6,6 +6,12 @@ article {
 	max-width: 500px;
 	min-height: 450px;
 	min-width: 300px;
+
+	border: 3px solid #888;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	background: #fffff0;
+	padding: 20px 25px;
 }
 
 .content-body {
@@ -19,4 +25,17 @@ article {
 	flex-direction: row;
 	-ms-flex-pack: center;
 	justify-content: center;
+}
+
+.live-button {
+	float: left;
+}
+
+.git-button {
+	float: right;
+}
+
+.proj-img {
+	margin: auto;
+	width: 100%;
 }
