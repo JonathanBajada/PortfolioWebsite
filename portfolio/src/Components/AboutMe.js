@@ -21,7 +21,8 @@ const AboutMe = (props) => {
 			<h2 className="h2-about">Education</h2>
 			<hr className="lets" />
 			<div className="p-about">
-				<p>Ryerson University</p>
+				<h3>Ryerson University</h3>
+				<p>BSc Computer Science 2016-2020</p>
 			</div>
 
 			<ul className="about-contact">
