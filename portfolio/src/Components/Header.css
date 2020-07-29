@@ -3,7 +3,7 @@
 	padding: 0;
 	text-align: center;
 	font-size: 60px;
-	padding-top: 200px;
+	padding-top: 15%;
 	height: 95vh;
 	background-image: linear-gradient(to right bottom, #6fbdd57e, #28b485b4), url(../img/space.jpg);
 	background-size: cover;
