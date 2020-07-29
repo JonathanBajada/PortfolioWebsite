@@ -9,10 +9,7 @@
 }
 
 .navigate ul {
-	float: right;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	padding-right: 50px;
 }
 
@@ -30,11 +27,20 @@ a:hover {
 	color: yellow;
 }
 
+.button-home {
+	position: absolute;
+	float: left;
+}
+
 .home-button {
 	position: absolute;
 	top: 13px;
 	left: 20px;
 	height: 35px;
+}
+
+.pages-link {
+	float: right;
 }
 /*
 https://stackoverflow.com/questions/41456143/list-style-type-none-not-working

@@ -10,13 +10,14 @@ const AboutMe = (props) => {
 			<div className="profile-image">
 				<img className="profilePic" src={require('../img/profile.png')} alt="" />
 			</div>
-			<br />
+
 			<h2 className="h2-about">About Me</h2>
 			<hr className="lets" />
 			<div className="p-about">
 				<p>
-					I am a Software Developer located in Toronto with a background in industrial automation and robotics
-					looking to make the change to into the tech industry.
+					I am a recent graduate from the Ryerson University Computer Science program. I have a background in
+					Full Stack Development, using React.js + Spring Boot in my internship at Moneykey. In my spare time
+					I produce music and a song I produced in 2019 went #1 trending in North America and Europe.
 				</p>
 			</div>
 			<h2 className="h2-about">Education</h2>
@@ -24,6 +25,7 @@ const AboutMe = (props) => {
 			<div className="p-about">
 				<h3>Ryerson University</h3>
 				<p>BSc Computer Science 2016-2020</p>
+				<p>Dean's List 2019-2020</p>
 			</div>
 
 			<ul className="about-contact">
