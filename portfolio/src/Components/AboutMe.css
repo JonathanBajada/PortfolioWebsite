@@ -1,5 +1,11 @@
+.about-me {
+	animation-name: moveInLeft;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+}
+
 .profilePic {
-	margin-top: 5%;
+	margin-top: 70px;
 	border-radius: 50%;
 	display: block;
 	margin-left: auto;
@@ -38,6 +44,7 @@
 	display: inline-block;
 	list-style-type: none;
 	margin-left: 10px;
+	padding-bottom: 2em;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -49,5 +56,19 @@
 @media only screen and (max-width: 600px) {
 	.profilePic {
 		max-width: 300px;
+	}
+}
+
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+	80% {
+		transform: translateX(0px);
+	}
+	100% {
+		opacity: 1;
+		trasnform: translate(0);
 	}
 }

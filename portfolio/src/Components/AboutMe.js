@@ -5,8 +5,7 @@ import linkedIN from '../img/linkedIn.png';
 
 const AboutMe = (props) => {
 	return (
-		<div>
-			<h2>About Me!</h2>
+		<div className="about-me">
 			<div className="profile-image">
 				<img className="profilePic" src={require('../img/profile.png')} alt="" />
 			</div>
