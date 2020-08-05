@@ -2,9 +2,10 @@ import React from 'react';
 import Nav from './Navigation';
 import Header from './Header';
 import AboutMe from './AboutMe';
+import Skills from './Skills';
 import Card from './Card';
 import Project from './Project';
-import './Main.css';
+import '../CSS/Main.css';
 
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -42,9 +43,7 @@ const MySkills = () => {
 	return (
 		<div>
 			<Nav />
-			<br />
-			<ul className="frontend-list">{frontEndList}</ul>
-			<ul className="backend-list">{backEndList}</ul>
+			<Skills />
 		</div>
 	);
 };

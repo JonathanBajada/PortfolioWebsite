@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutMe.css';
+import '../CSS/AboutMe.css';
 import github from '../img/github.png';
 import linkedIN from '../img/linkedIn.png';
 
@@ -44,18 +44,3 @@ const AboutMe = (props) => {
 };
 
 export default AboutMe;
-
-/*
-		<ul>
-				<li>
-					<a href="https://github.com/JonathanBajada" target="_blank">
-						<img src={github} alt="Github" width="40px" />
-					</a>
-				</li>
-				<li>
-					<a href="https://www.linkedin.com/in/jbajada" target="_blank">
-						<img src={linkedIN} alt="Github" width="40px" />
-					</a>
-				</li>
-			</ul>
-			*/
