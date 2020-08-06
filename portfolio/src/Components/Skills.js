@@ -9,10 +9,14 @@ const backEndList = backEnd.map((backEnd) => <li>{backEnd}</li>);
 const Skills = () => {
 	return (
 		<div>
-			<h1 className="h-skills">My Skills</h1>
+			<h1 className="h-skills">Tool Box</h1>
 			<div>
-				<ul className="frontend-list">{frontEndList}</ul>
-				<ul className="backend-list">{backEndList}</ul>
+				<ul title="Frontend Skills" className="frontend-list">
+					{frontEndList}
+				</ul>
+				<ul title="Backend Skills" className="backend-list">
+					{backEndList}
+				</ul>
 			</div>
 		</div>
 	);
