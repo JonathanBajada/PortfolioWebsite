@@ -10,6 +10,16 @@
 	max-width: 40%;
 }
 
+.top5 {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.top5 li {
+	display: inline;
+	padding: 10px;
+}
+
 .frontend-list {
 	margin-top: 5%;
 	float: left;
@@ -33,11 +43,14 @@ ul[title]::before {
 	display: block;
 	font-weight: bold;
 	font-size: 20px;
-	text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {
 	.tools-image {
 		max-width: 60%;
+	}
+	.top5 li {
+		display: block;
+		padding: 0px;
 	}
 }
