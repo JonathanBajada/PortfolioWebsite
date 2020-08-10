@@ -1,41 +1,12 @@
-article {
-	margin-top: 200px;
+.container {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	max-width: 500px;
-	min-height: 450px;
-	min-width: 300px;
-
-	border: 3px solid #888;
-	margin-bottom: 15px;
-	border-radius: 15px;
-	background: #fffff0;
-	padding: 20px 25px;
-}
-
-.content-body {
-	width: 100%;
-	margin: auto;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-ms-flex-direction: row;
 	flex-direction: row;
-	-ms-flex-pack: center;
-	justify-content: center;
+	flex-wrap: wrap;
+
+	justify-content: space-around;
 }
 
-.live-button {
-	float: left;
-}
-
-.git-button {
-	float: right;
-}
-
-.proj-img {
-	margin: auto;
-	width: 100%;
+.child {
+	padding: 40px;
+	flex-basis: 33.333333%;
 }

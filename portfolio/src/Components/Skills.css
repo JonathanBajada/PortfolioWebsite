@@ -1,3 +1,15 @@
+.tool-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tools-image {
+	opacity: 80%;
+	padding-top: 100px;
+	max-width: 40%;
+}
+
 .frontend-list {
 	margin-top: 5%;
 	float: left;
@@ -22,4 +34,10 @@ ul[title]::before {
 	font-weight: bold;
 	font-size: 20px;
 	text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+	.tools-image {
+		max-width: 60%;
+	}
 }
