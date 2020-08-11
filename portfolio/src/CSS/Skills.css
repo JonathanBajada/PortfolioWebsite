@@ -1,0 +1,38 @@
+.tool-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tools-image {
+	padding-top: 100px;
+	max-width: 40%;
+}
+
+.skills-container {
+	padding: 30px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: center;
+}
+
+.skills-child {
+	margin: 0 3rem 2rem 3rem;
+}
+
+ul[title]::before {
+	content: attr(title);
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	.skills-container {
+		flex-direction: column;
+		align-items: center;
+	}
+}

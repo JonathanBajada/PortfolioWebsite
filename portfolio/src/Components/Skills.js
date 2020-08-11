@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import '../CSS/Skills.css';
 import Tools from '../img/ToolsBoxSkills.jpg';
 import Tool2 from '../img/ToolsBox4.jpg';
 
@@ -16,12 +16,22 @@ const Skills = () => {
 			<div className="tool-flex">
 				<img className="tools-image" src={Tool2} alt="" />
 			</div>
-			<ul title="Frontend Skills" className="frontend-list">
-				{frontEndList}
-			</ul>
-			<ul title="Backend Skills" className="backend-list">
-				{backEndList}
-			</ul>
+			<div className="skills-container">
+				<div className="skills-card">
+					<div className="skills-child s1">
+						<ul title="Frontend Skills" className="frontend-list">
+							{frontEndList}
+						</ul>
+					</div>
+				</div>
+				<div className="skills-card">
+					<div className="skills-child s2">
+						<ul title="Backend Skills" className="backend-list">
+							{backEndList}
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };
