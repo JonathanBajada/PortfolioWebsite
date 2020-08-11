@@ -3,7 +3,6 @@ import Nav from './Navigation';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
-import Card from './Card';
 import Project from './Project';
 import '../CSS/Main.css';
 

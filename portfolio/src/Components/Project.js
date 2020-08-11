@@ -8,7 +8,7 @@ import sqlgenerator from '../img/SQL_Generator.png';
 const Project = (props) => {
 	return (
 		<div className="container">
-			<div className="child">
+			<div className="child c1">
 				<ProjectCard
 					image={visible}
 					title="Visible"
@@ -21,7 +21,7 @@ const Project = (props) => {
 					github={'https://github.com/JonathanBajada/JS-AccessibilityApp'}
 				/>
 			</div>
-			<div className="child i5">
+			<div className="child c2">
 				<ProjectCard
 					className="child"
 					image={sqlgenerator}
@@ -32,7 +32,7 @@ const Project = (props) => {
 					github={'https://github.com/JonathanBajada/JS-AccessibilityApp'}
 				/>
 			</div>
-			<div className="child">
+			<div className="child c3">
 				<ProjectCard
 					className="child"
 					image={reactpics}
